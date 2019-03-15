@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+</head>
+<body>
+<form id="form1" action="/schedule.html">
+    <label for="user">Enter your username: </label>
+    <input type="text" id="user">
+    <label for="pswd"><br><br>Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="submit" onclick="checkPswd();" />
+</form>
+
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        // alert(document.getElementById("user").value)
+        var confirmPassword = "papabach";
+        var confirmUsername = "brian"
+        var password = document.getElementById("pswd").value;
+        var username = document.getElementById("user").value;
+        if (password == confirmPassword && username == confirmUsername) {
+             window.location.href="schedule.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+</body>
+</html>
