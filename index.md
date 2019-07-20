@@ -16,7 +16,7 @@ During the 2017 Summer, I interned at Western Digital on their Big Data Platform
 
 ## [Research]()
 
-I am heavily involved with mathematical and numerical research, particularly on a modern version of the Procrustes Problem. Alongside Dr. Steven Damelin, I am working on creating a point-set matching algorithm based off his papers with Dr. Charles Fefferman.
+I was heavily involved with mathematical and numerical research, particularly on a modern version of the Procrustes Problem. Alongside Dr. Steven Damelin, I worked on creating a point-set matching algorithm based off his papers with Dr. Charles Fefferman.
 
 ## [ATLAS Collaboration](https://home.cern/)
 
