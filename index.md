@@ -1,5 +1,5 @@
 ---
-<!-- layout: page -->
+layout: default
 title: "Brad Schwartz"
 permalink: /
 ---
