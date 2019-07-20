@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+title: bradschwartz.github.io
+email: baschwartz95@gmail.com
+description: >-
+  Personal site of Brad Schwartz.
+
+theme: "jekyll-theme-cayman"
