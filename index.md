@@ -4,11 +4,24 @@ title: "Brad Schwartz"
 permalink: /
 ---
 
-# Experience 
+# Experience
+
+## [Embark Trucks - Software Engineer, Developer Experience](https://embarktrucks.com/)
+
+At Embark Trucks, I was a software engineer on the developer experience team, tasked
+with ensuring all the systems all the product-facing engineers relied upon
+were running smoothly. My main project was focused on moving the legacy Jenkins
+infrastructure based on static EC2s over to auto-scaling and ephemeral Kubernetes
+pods. This was projected to save 30% of our related cloud spend and reduce
+maintainence toil.
+
+We partnered heavily with our cloud infrastructure and data teams, where I got hands-on
+experience with Kubernetes management, Terraform state migrations, and what it means
+to manage actual hardware on the roads.
 
 ## [Capital One - Software Engineer](https://www.capitalone.com/)
 
-Currently a DevOps-focused software engineer at Capital One, focusing on bringing best
+Previously, a DevOps-focused software engineer at Capital One, focusing on bringing best
 practices to legacy teams. I've achieved large cost-savings and faster development
 cycles by automating infrastructure and and code deployments. A big portion of my
 development work is centered around building out CI/CD pipelines, enabling
