@@ -20,12 +20,12 @@ to manage actual hardware on the roads.
 ## [Capital One - Software Engineer](https://www.capitalone.com/)
 
 Previously, a DevOps-focused software engineer at Capital One, focusing on bringing best
-practices to legacy teams. I've achieved large cost-savings and faster development
+practices to legacy teams. I achieved large cost-savings and faster development
 cycles by automating infrastructure and and code deployments. A big portion of my
-development work is centered around building out CI/CD pipelines, enabling
+development work was centered around building out CI/CD pipelines, enabling
 teams to build and deploy their applications as seamlessly as possible. I'm a big
 proponent of [InnerSourcing](https://en.wikipedia.org/wiki/Inner_source), and
-spend a portion of my days contributing to internal dev tools and maintaining our
+spent a portion of my days contributing to internal dev tools and maintaining our
 Homebrew tap.
 
 ## [Western Digital  - Big Data Intern](https://www.westerndigital.com/)
