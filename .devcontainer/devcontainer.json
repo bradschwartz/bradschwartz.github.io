@@ -1,11 +1,14 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
-	"name": "Jekyll",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
-	// needed to leverage {{site.url}} for other GitHub Pages I own
-	"containerEnv": {
-		"JEKYLL_ENV": "production"
-	}
+    "name": "Jekyll",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
+    // needed to leverage {{site.url}} for other GitHub Pages I own
+    "containerEnv": {
+	"JEKYLL_ENV": "production"
+    },
+    "workspaceFolder": "/workspaces/bradschwartz.github.io",
+    "postStartCommand": "nohup bash -c 'bundle exec jekyll serve --host 0.0.0.0 &' > /tmp/nohup.out",
+    "appPort" : ["4000:4000"]
 }
