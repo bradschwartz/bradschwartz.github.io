@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Dev Environment
+category: blog
 tags: dotfiles shell
 ---
 
