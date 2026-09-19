@@ -1,0 +1,26 @@
+# Zola configuration
+# https://www.getzola.org/documentation/getting-started/configuration/
+
+base_url = "https://bradschwartz.io"
+title = "/home/bradschwartz"
+description = "There's no place like $HOME"
+author = "Brad Schwartz"
+
+taxonomies = [
+  { name = "categories", feed = true },
+  { name = "tags", feed = true },
+]
+
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# Everything in this section lives in `extra` in Tera
+[extra]
+email = "baschwartz95@gmail.com"
+github_username = "bradschwartz"
+linkedin_username = "baschwa"
+
+# lowercase_links = true
+# For blog URLs that mirror the file tree, just use paths below.
+# Permalink patterns are not configurable in Zola; shape URLs with the
+# content/ directory layout and per-page `slug` instead.

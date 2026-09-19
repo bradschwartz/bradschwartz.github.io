@@ -1,9 +1,12 @@
----
-layout: post
-title: My Dev Environment
-category: blog
-tags: dotfiles shell
----
++++
+title = "My Dev Environment"
+description = "How I like my system set up"
+date = 2023-04-26
+
+[taxonomies]
+categories = ["blog"]
+tags = ["dotfiles", "shell"]
++++
 
 I spend a lot of time on my computer, and have built up some fairly
 opinionated ways of how I like my system set up. Nearly everything

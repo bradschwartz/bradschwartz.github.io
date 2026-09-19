@@ -1,8 +1,6 @@
----
-layout: page
-title: Experience
-permalink: /experience/
----
++++
+title = "Experience"
++++
 
 ## [Embark Trucks - Software Engineer, Developer Experience](https://embarktrucks.com/)
 
@@ -34,7 +32,7 @@ During the 2017 Summer, I interned at Western Digital on their Big Data Platform
 working on projects for better cloud-resource tracking, automation at scale,
 and containerization projects.
 
-## [Research]()
+## Research
 
 I was heavily involved with mathematical and numerical research, particularly on
 a modern version of the Procrustes Problem. Alongside Dr. Steven Damelin, I worked
