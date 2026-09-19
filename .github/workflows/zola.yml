@@ -3,6 +3,12 @@ name: Deploy Zola site to Pages
 on:
   push:
     branches: [master]
+    paths:
+      - config.toml
+      - content/**
+      - templates/**
+      - static/**
+      - .github/workflows/**
   workflow_dispatch:
 
 permissions:
