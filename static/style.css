@@ -1,0 +1,102 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #0366d6;
+}
+
+hr {
+    margin: 15px 0 20px;
+    border-top: 1px solid #c9c7c7;
+}
+
+main {
+    flex: 1;
+}
+
+header span a,
+footer a {
+    text-decoration: none;
+}
+
+.header-col-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header-col-2 a + a {
+    margin-left: 14px;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 2%;
+}
+
+.footer-heading {
+    font-size: 1.15em;
+    margin: 0 0 8px;
+}
+
+.footer-col-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.footer-col-3 p {
+    max-width: 300px;
+    margin: 0;
+}
+
+.post-meta,
+.post-date {
+    color: gray;
+}
+
+pre {
+    border: thin solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.error-page .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 5%;
+    }
+    .header-col-wrapper {
+        flex-wrap: wrap;
+    }
+    .footer-col-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-col-3 p {
+        max-width: none;
+    }
+}
