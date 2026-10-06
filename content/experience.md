@@ -2,6 +2,15 @@
 title = "Experience"
 +++
 
+## [Capital One - Software Engineer, Infrastructure & Developer Experience](https://travel.capitalone.com/)
+
+I rejoined Capital One in Februaray 2026 as part of them bringing
+the [travel technology from Hopper in-house](https://www.businesstravelnews.com/Technology/Capital-One-Brings-Hopper-Tech-In-House-Launches-Travel-App).
+I joined as an expert in developer experience and infrastructure, managing
+the acquired cloud infrastructure and Kubernetes platforms, as well as working to
+tightly integrate CI/CD and developer patterns with the Capital One preferred
+methodologies.
+
 ## [Embark Trucks - Software Engineer, Developer Experience](https://www.linkedin.com/company/embarktrucks)
 
 At Embark Trucks, I was a software engineer on the developer experience team, tasked
