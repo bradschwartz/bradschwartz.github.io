@@ -12,6 +12,8 @@ I spend a lot of time on my computer, and have built up some fairly
 opinionated ways of how I like my system set up. Nearly everything
 here is managed through my [dotfiles](https://github.com/bradschwartz/dotfiles).
 
+<!-- more -->
+
 ## My System
 
 ```bash

@@ -16,6 +16,8 @@ data, but this was the first time I was aware of this being loadable from a `sql
 shell directly! I decided to play with it and created [`kubernetes-vtab`](https://github.com/bradschwartz/kubernetes-vtab),
 a sqlite3 virtual table extension built in Rust.
 
+<!-- more -->
+
 It's pretty straightforward. `kubernetes-vtab` is built on top of two Rust crates:
 
 1. [`kube-rs`](https://kube.rs/) for querying the Kubernetes API
